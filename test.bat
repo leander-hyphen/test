@@ -10,6 +10,6 @@ if not "%SELF%"=="%~dp0\test.bat" (
 )
 
 echo off
-title test.bat
-echo test.bat
+title 0..bat
+echo 0.bat
 pause >nul
