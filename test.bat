@@ -12,10 +12,8 @@ if not "%SELF%"=="%~dp0\test.bat" (
     start "" "%~dp0\test.bat"
     exit /b
 ) else (
-    echo This batch file has installed the latest version..
+    echo This batch file is up-to-date.
+    echo Welcome to my batch file!
+    :: Your batch file commands here
+echo updated!
 )
-
-echo Welcome to my batch file!
-
-:: Your batch file commands here
-echo Updated Succesfully!
